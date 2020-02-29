@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #552084;
+    font-family: 'Work Sans';
+    color: #FDBA21;
+    text-align: center;
+}
+pre.paragraf {
+    margin-left: 25%;
+    text-align: left;
+    font-family: 'Work Sans';
+    word-wrap: break-word;
+    contain: content;
+
+}
+.class1 {
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 20% 0 20%;
+}
+footer {
+    background-color: #FDBA21;
+    color: #552084;
+    margin: 20px 25% 20px 25%;
+    padding: 10px;
+}
+#tibute-link {
+    max-width: ;
+    max-height: ;
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+}

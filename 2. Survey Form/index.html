@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="main">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div class="background">
+            <h1 id="title">Application for programing course</h1>
+            <p id="description">Thank you for taking an iterest in our courses.</p>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                <label id="email-label" for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                <label id="number-label" for="number">Age (optional)</label><br>
+                <input type="number" id="number" name="number" min="10" max="99" placeholder="Enter your age"><br>
+                <div>
+                    <label for="dropdown">Which option best describes your current role?</label><br>
+                    <select id="dropdown" name="dropdown">
+                        <option value="current" selected disabled>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="job">Full Time Job</option>
+                        <option value="learner">Full Time Learner</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                </div>
+                <div>
+                <label>What programing experience you would say you have?</label><br>
+                <input type="radio" id="begginer" name="exp" value="begginer">
+                <label for="begginer">Begginer</label><br>
+                <input type="radio" id="intermediate" name="exp" value="intermediate">
+                <label for="intermediate">Intermediate</label><br>
+                <input type="radio" id="expert" name="exp" value="expert">
+                <label for="expert">Expert</label><br>
+                </div>
+            <div>
+                <label>What programing languages do you know? (If any)</label><br>
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python"> Python</label><br>
+                <input type="checkbox" id="c" name="c" value="c">
+                <label for="c"> C</label><br>
+                <input type="checkbox" id="c++" name="c++" value="c++">
+                <label for="c++"> C++</label><br>
+                <input type="checkbox" id="java" name="java" value="java">
+                <label for="java"> Java</label><br>
+                <input type="checkbox" id="javascript" name="javascript" value="javascript">
+                <label for="javascript"> JavaScript</label><br>
+                <input type="checkbox" id="others" name="others" value="others">
+                <label for="others"> Others</label><br>
+            </div>
+            <div>
+                <label>Any comments or suggestions?</label><br>
+                <textarea placeholder="Enter your comment here"></textarea><br>
+            </div>
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
